@@ -1,0 +1,103 @@
+// ############################### Footer Start ###################################################
+footer {
+    background-color: #292b4a;
+
+    .cards {
+        position: relative;
+        top: -60px;
+
+        .contact-card {
+            width: 352px;
+            height: 120px;
+            display: flex;
+            border-radius: 10px;
+            box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+            background-color: #ffffff;
+            text-align: right;
+            padding: 30px 40px;
+
+            .icons {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 50px;
+                height: 50px;
+                border: solid 1px #171932;
+                background-color: #ffffff;
+                border-radius: 50%;
+                margin-left: 20px;
+
+                i {
+                    color: #423eaa;
+                    font-size: 16px;
+                    text-align: center;
+                }
+            }
+
+            .text {
+                align-items: center;
+                font-size: 16px;
+                line-height: 1.31;
+                text-align: right;
+                color: #171932;
+
+                .title {
+                    color: #423eaa;
+                }
+            }
+
+
+        }
+
+    }
+    .company-logo {
+        text-align: right;
+        font-size: 14px;
+        line-height: 1.5;
+        color: #ffffff;
+        p {
+            margin-top: 10px;
+        }
+
+    }
+    .nav-items {
+        display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    a {
+        text-decoration: none;
+        color:#fff;
+    }
+
+    a:hover {
+       color:#03A9F4; 
+    }
+    }
+
+    .social-media {
+        font-size: 18px;
+        line-height: 1.22;
+        text-align: left;
+        color: #ffffff;
+        
+        i {
+            font-size: 20px;
+            color:#03A9F4;
+            margin-left: 8px;
+            margin-top: 10px;
+        }
+    }
+
+    .copy-rights {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+        font-size: 12px;
+        padding-bottom: 30px;
+    }
+
+}
+
+// ################################ Footer End ###################################################

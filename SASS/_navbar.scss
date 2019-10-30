@@ -1,0 +1,19 @@
+// ######################################### Start Of NavBar #################################################
+
+.navbar {
+    height: 85px;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.16);
+    background-color: #ffffff;
+    font-weight: 600;
+    line-height: 1;
+    color: #000000;
+    .nav-item.active {
+        .nav-link{
+            color: blue;
+            font-weight: 900;
+        }      
+    }
+}
+
+
+// ######################################### End Of NavBar ##################################################

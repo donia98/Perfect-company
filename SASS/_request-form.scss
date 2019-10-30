@@ -1,0 +1,94 @@
+// ###################### Request form Section Start #######################
+.request-service {
+    .request-form {
+        border-radius: 20px;
+        box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.16);
+        background-color: #f3f7ff;
+        margin-bottom: 150px;
+
+        form {
+            p {
+                text-align: center;
+            }
+
+            input,
+            select,
+            textarea {
+                border: none;
+                height: 52px;
+                border-radius: 6px;
+                box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.16);
+                background-color: #ffffff;
+                padding: 10px;
+                outline: none;
+            }
+
+            label {
+                display: none,
+            }
+
+            .inputs-cont-1 {
+                padding: 30px 92px 0 92px;
+
+                #full-name {
+                    width: 100%;
+                    // padding: 0 20px;
+                }
+
+
+                #problem-desc {
+                    width: 100%;
+                    height: 200px;
+                    max-height: 200px;
+                    min-height: 200px;
+                    // padding: 0 20px;
+                }
+
+            }
+
+            .form-control {
+                width: 100%;
+            }
+
+            .inputs-cont-2 {
+                padding: 30px 92px 0 8px;
+
+                #email {
+                    width: 100%;
+                }
+            }
+
+            .inputs-cont-3 {
+                padding: 30px 8px 0 92px;
+
+                #phone {
+                    width: 100%;
+                }
+            }
+            .service-button {
+                display: flex;
+                justify-content: center;
+                padding: 30px 368px 60px 368px;
+                .service-btn {
+                    border: none;
+                    width: 352px;
+                    height: 52px;
+                    border-radius: 6px;
+                    background-color: #423eaa;
+                    font-size: 16px;
+                    line-height: 2.38;
+                    color: #ffffff;
+                    outline: none;
+                }
+            }
+
+
+
+        }
+
+    }
+}
+
+
+
+// ###################### Request form Section End #######################

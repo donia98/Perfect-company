@@ -1,0 +1,64 @@
+// ######################################### contact us section Start#############################################
+.contact-us {
+
+    margin-bottom: 200px;
+
+    p {
+        text-align: center;
+        font-size: 16px;
+        line-height: 2.38;
+        color: #171932;
+    }
+
+    form {
+        border-radius: 20px;
+        box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.16);
+        background-color: #f3f7ff;
+
+        .img {
+            display: flex;
+            justify-content: center;
+            padding-top: 60px;
+            padding-left: 60px;
+
+            img {
+                object-fit: contain;
+            }
+        }
+
+        .user-info {
+            padding: 60px;
+
+            input {
+                border: none;
+                height: 52px;
+                border-radius: 6px;
+                box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.16);
+                background-color: #ffffff;
+            }
+
+            textarea {
+                max-height: 200px;
+                min-height: 200px;
+            }
+
+            .send-btn {
+                display: flex;
+                justify-content: center;
+                margin-top: 60px;
+
+                button {
+                    outline: none;
+                    width: 336px;
+                    height: 52px;
+                    border-radius: 6px;
+                    background-color: #423eaa;
+                    color: #ffffff;
+                }
+
+            }
+        }
+    }
+}
+
+// ######################################### contact us section End #############################################

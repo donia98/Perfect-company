@@ -1,0 +1,47 @@
+// ###################################### book page section #######################
+
+.book-page{
+
+    .pic {
+        margin-right: -25%;
+        object-fit: contain;
+        display: flex;
+        align-items: center;
+
+        img {
+            width: 600px;
+            margin-top: -12%;
+        }
+    }
+    
+    ul {
+        padding-bottom: 40px;
+        li {
+            display: flex;
+                border-radius: 6px;
+                box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.16);
+                background-color: #ffffff;
+                margin-bottom: 10px;
+            .icon {
+                align-self: center;
+                margin-right: 30px;
+            }
+            .text {
+                padding: 15px 0 15px 20px;
+                text-align: right;
+                margin-right: 30px;
+                text-align: right;
+                color: #171932;
+                h5 {
+                    font-size: 18px;
+                    font-weight: 700;
+                    line-height: 1.22;
+                }
+                p {
+                    font-size: 14px;
+                    line-height: 2.14;
+                }
+            }
+        }
+    }
+}

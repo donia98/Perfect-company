@@ -1,0 +1,72 @@
+// ###################################### Know more section start ########################################
+.know-more-sec {
+    background-color: #f9fafc;
+    text-align: right;
+
+    .accordion {
+        padding-bottom: 60px;
+
+        .card {
+            margin-bottom: 10px;
+            border-radius: 10px;
+            box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.16);
+            background-color: #ffffff !important;
+
+            .card-header {
+                background: #ffffff;
+
+                .drower {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+
+                    button {
+                        font-size: 18px;
+                        line-height: 1.17;
+                        color: #171932;
+                    }
+
+                    i {
+                        font-size: 30px;
+                        color: #10aee5;
+                    }
+                }
+
+               h5{
+                   button{
+                    &[aria-expanded="false"]{
+                        ~ i{
+                         transform-origin: center center;
+                         transform: rotate(0);
+                         transition: all 0.3s;
+
+                        }
+                    }
+                       &[aria-expanded="true"]{
+                           ~ i{
+                            transform-origin: center center;
+                            transform: rotate(180deg);
+                            transition: all 0.3s;
+
+                           }
+                       }
+                   }
+               }
+            }
+
+            .card-body {
+                font-size: 14px;
+                line-height: 1.71;
+                color: #171932;
+            }
+        }
+
+        .card:not(:first-of-type) {
+            border-radius: 10px;
+
+        }
+    }
+
+}
+
+// ###################################### Know more section End #########################################

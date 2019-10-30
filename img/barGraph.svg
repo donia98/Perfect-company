@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="bar-graph" width="40" height="40" viewBox="0 0 40 40">
+    <defs>
+        <style>
+            .cls-1{fill:#423eaa}
+        </style>
+    </defs>
+    <path id="Path_5905" d="M39.167 35H5V.833a.833.833 0 1 0-1.667 0V35h-2.5a.833.833 0 1 0 0 1.667h2.5v2.5a.833.833 0 1 0 1.667 0v-2.5h34.167a.833.833 0 1 0 0-1.667z" class="cls-1" data-name="Path 5905"/>
+    <path id="Path_5906" d="M107.507 192h5.044a.841.841 0 0 1 .841.841v15.131a.841.841 0 0 1-.841.841h-5.044a.841.841 0 0 1-.841-.841v-15.131a.841.841 0 0 1 .841-.841z" class="cls-1" data-name="Path 5906" transform="translate(-98.347 -177.094)"/>
+    <path id="Rectangle_3008" d="M0 0h5.044v20.175H0z" class="cls-1" data-name="Rectangle 3008" transform="translate(29.072 10.739)"/>
+    <path id="Path_5907" d="M235.507 21.333h5.044a.841.841 0 0 1 .841.841v28.581a.841.841 0 0 1-.841.841h-5.044a.841.841 0 0 1-.841-.841V22.174a.841.841 0 0 1 .841-.841z" class="cls-1" data-name="Path 5907" transform="translate(-216.365 -19.652)"/>
+</svg>

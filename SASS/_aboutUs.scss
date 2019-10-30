@@ -1,0 +1,21 @@
+// ############################# AboutUs section Start ############################
+
+.aboutUs-sec {
+    margin-bottom: 50px;
+    .text {
+        text-align: right;
+        font-size: 16px;
+        line-height: 1.81;
+        color: hsl(236, 37%, 14%);
+        margin-top: 25px;
+    }
+
+    img {
+        object-fit: contain;
+        opacity: 0.9;
+        text-align: center;
+    }
+
+   
+}
+// ############################# AboutUs section End #############################

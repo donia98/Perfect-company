@@ -1,0 +1,49 @@
+// ###################################### Start  About Section ############################################
+.about-sec {
+    background-image: linear-gradient(70deg, #fbfcff, #fafbff 47%, #eff1fe 93%);
+    margin-top:100px;
+
+    .about-sec-pic {
+        margin-right: -25%;
+        width: 658px;
+        height: 600px;
+        object-fit: contain;
+        display: flex;
+        align-items: center;
+    }
+
+    ul {
+        padding-bottom: 40px;
+        li {
+            display: flex;
+                border-radius: 6px;
+                box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.16);
+                background-color: #ffffff;
+                margin-bottom: 10px;
+            .icon {
+                align-self: center;
+                margin-right: 30px;
+            }
+            .text {
+                padding: 15px 0 15px 20px;
+                text-align: right;
+                margin-right: 30px;
+                text-align: right;
+                color: #171932;
+                h5 {
+                    font-size: 18px;
+                    font-weight: 700;
+                    line-height: 1.22;
+                }
+                p {
+                    font-size: 14px;
+                    line-height: 2.14;
+                }
+            }
+        }
+    }
+}
+
+
+
+// ###################################### End About Section ############################################

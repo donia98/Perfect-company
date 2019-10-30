@@ -1,0 +1,47 @@
+// ################################ services Section Start ##############################################
+
+.services-sec {
+    text-align: right;
+    color: #171932;
+    margin-bottom: 50px;
+    .box {
+        background-color: #ffffff;
+        border-radius: 12px;
+        padding: 50px 30px;
+        .image {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 80px;
+            height: 80px;
+            border-radius: 12px;
+            border: solid 1px #10aee5;
+            margin-bottom: 30px;
+            background-color: #ffffff;
+        }
+
+        .text {
+            h5 {
+                font-size: 20px;
+                font-weight: 700;
+                line-height: 1.2;
+                margin-bottom: 30px;
+            }
+
+            p {
+                font-size: 14px;
+                line-height: 2.14;
+                margin-bottom: 30px;
+            }
+        }
+    }
+
+
+}
+
+.box:hover {
+    background-color: #10aee5;
+    color: #ffffff;
+}
+
+// ################################ services Section End ##############################################

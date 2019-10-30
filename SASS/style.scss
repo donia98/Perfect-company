@@ -1,0 +1,46 @@
+@font-face {
+    font-family: NeoSansArabic;
+    src: url(../webfonts/NeoSansArabic.ttf);
+  }
+  body {
+    direction: rtl;
+    font-family: 'NeoSansArabic', sans-serif;
+}
+
+.sub-title {
+  padding-top:50px;
+  text-align: center;
+  position: relative;
+  margin-bottom: 70px;
+  padding-bottom: 15px;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1.22;
+
+  &:after {
+      content: '';
+      position: absolute;
+      bottom: -25px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 70px;
+      height: 6px;
+      background-color: #10aee5;
+      border-radius: 4px;
+  }
+}
+
+@import 'navbar';
+@import'header-slider';
+@import'about';
+@import'services';
+@import'know-more';
+@import'aboutUs';
+@import'rating';
+@import'footer';
+@import'agreements';
+@import'request-form';
+@import'more-info';
+@import'contact-us';
+@import'book-page';
+@import'ads-policy';

@@ -1,0 +1,36 @@
+// ############################# ads policy section Start ###################################
+
+.ads-policy {
+    text-align: right;
+    color: #171932;
+    padding-bottom: 150px;
+    h3 {
+        font-size: 28px;
+        font-weight: 600;
+        line-height: 1.36;
+        margin-bottom: 30px;
+    }
+    h5 {
+        font-size: 18px;
+        font-weight: 500;
+        margin-bottom: 30px;
+    }
+
+    ul {
+        list-style: none;
+      }
+      
+      ul li::before {
+        content: "\25A0";
+        color: #10aee5;
+        font-weight: bold;
+        display: inline-block;
+        width: 1.2em;
+      }
+    li {
+        font-size: 16px;
+        line-height: 2.38;
+    }
+}
+
+// ############################# ads policy section End ###################################
